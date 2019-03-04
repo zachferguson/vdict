@@ -67,7 +67,7 @@ def make_dictionary (filename):  # primary function: parse Websters dict., save 
         print("opening " + filename + ".txt")
         file = filename + ".txt, encoding = 'utf-8'"
         dict = open('sample.txt', encoding = 'utf-8')
-        js = open("dictio.js", "w")
+        js = open("vdict.js", "w")
         tempdict = dict.readlines()
         words = []
         toJSON = {}
