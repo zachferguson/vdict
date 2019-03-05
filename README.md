@@ -6,6 +6,8 @@ etymology, and definition(s).
 vdict-creator.py
 The python file to parse and convert the free Websters dictionary
 available from Project Gutenberg (https://www.gutenberg.org/ebooks/29765).
+This is a one use program to read the dictionary, as much as possible,
+into a JSON file, and is not part of the final project.
 
 sample.txt
 A small excerpt from the Websters Dictionary for testing and development before attempting
@@ -13,11 +15,12 @@ to parse the whole thing.
 
 vdict.js
 The file created by vdict-creator.py. Will probably create both a .py and a .js file
-later including methods for all the dictionary stuff you might want to do 
+later including methods for all the dictionary stuff you might want to do
 (for Node 'require' and Python 'import')
 
 To-Do's:
-- figure out why I'm getting \u00e4 in my results and resolve it
+- figure out why \u00e4 is appearing in the resulting file and resolve it
+- fix pronunciations
 - improve definition parsing (some words are not getting their defs read/created)
 
 Dictionary is Complete To-Do's
@@ -31,4 +34,3 @@ getPromunciation - get pronunciation of the word
 getPartOfSpeech - return if the word is a noun, verb, etc.
 getSynonyms - return synonym list
 getAntonyms - return list of antonyms
-

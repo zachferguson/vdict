@@ -1,7 +1,8 @@
 #-------------------------------------------------------------------------------
 # Name:        dictionary cleaner
-# Purpose:
-#
+# Purpose:     clean up the websters dictionary available from Project Gutenburg
+#              and create a query-able dictionary JSON file for use with Python
+#              or Node
 # Author:      Ferguson
 #
 # Created:     24/02/2019
